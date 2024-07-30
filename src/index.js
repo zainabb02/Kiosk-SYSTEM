@@ -16,6 +16,7 @@ import Layout from './hoc/Layout'
 const store = createStore(
   reducers,
   composeWithDevTools(applyMiddleware(reduxThunk))
+
 )
 
 ReactDOM.render(
